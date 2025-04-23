@@ -70,7 +70,7 @@ const Navbar = () => {
               to="/male"
               className={location.pathname === '/male' ? 'active' : ''}
             >
-              Personajes
+              Hombres
             </NavButton>
             <NavButton 
               component={Link} 
