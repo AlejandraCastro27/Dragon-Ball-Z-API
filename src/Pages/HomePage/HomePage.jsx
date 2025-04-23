@@ -8,7 +8,7 @@ const HomePage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    axios("https://dragonball-api.com/api/characters")
+    axios("https://dragonball-api.com/api/characters?limit=100")
       .then(res => {
         setData(res.data.items);
         setIsLoading(false);
