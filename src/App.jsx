@@ -6,6 +6,7 @@ import DetailsPage from "./Pages/DetailsPage/DetailsPage";
 import MalePage from "./Pages/MalePage/MalePage"; 
 import FemalePage from "./Pages/FemalePage/FemalePage"; 
 import AboutPage from "./Pages/AboutPage/AboutPage";
+import ErrorPage from './Pages/ErrorPage/ErrorPage';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/male" element={<MalePage/>} />  
         <Route path="/female" element={<FemalePage/>} />
         <Route path="/AboutPage" element={<AboutPage/>} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
     </Router>
   );
