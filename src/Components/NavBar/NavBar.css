@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;700&display=swap');
+
+.navbar {
+  background-color: rgba(15, 15, 15, 0.98) !important;
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid rgba(255, 140, 0, 0.2) !important;
+  transition: all 0.3s ease;
+  z-index: 1100;
+}
+
+.navbar-toolbar {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 24px !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-link {
+  display: flex;
+  align-items: center;
+  transition: all 0.3s ease;
+  padding: 5px 0;
+}
+
+.logo {
+  height: 48px;
+  transition: all 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.nav-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.active {
+  color: #ff8c00 !important;
+}
+
+@media (max-width: 960px) {
+  .navbar-toolbar {
+    padding: 0 20px !important;
+  }
+  
+  .logo {
+    height: 42px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar-toolbar {
+    padding: 0 16px !important;
+  }
+  
+  .NavButton {
+    font-size: 0.8rem !important;
+    padding: 6px 12px !important;
+    margin: 0 4px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-toolbar {
+    padding: 8px 12px !important;
+  }
+  
+  .logo {
+    height: 36px;
+  }
+  
+  .nav-buttons {
+    margin-left: auto;
+  }
+  
+  .NavButton {
+    font-size: 0.75rem !important;
+    padding: 4px 8px !important;
+    margin: 0 2px !important;
+    min-width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    height: 32px;
+  }
+  
+  .NavButton {
+    font-size: 0.7rem !important;
+    padding: 4px 6px !important;
+    letter-spacing: 0.5px;
+  }
+}
