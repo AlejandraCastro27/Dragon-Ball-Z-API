@@ -22,7 +22,7 @@ Aplicación web que muestra personajes de Dragon Ball Z consumiendo una API púb
 
 1. Clona el repositorio:
    ```bash
-   git clone https: https://github.com/AlejandraCastro27/DragonBallZ-API.git
+   git clone https://github.com/kevinguaquez/dragonballz-character-explorer.git
 Instala las dependencias:
 npm install
 
